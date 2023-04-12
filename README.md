@@ -55,6 +55,9 @@
   3. So for this contractions we know that the middle chest don't have a treasure, all the chesta don´t have and not only one have a chest  
   4. So in the first instructions said that at least one has a treasure, so using the contractions know that the treasures are in the chest A and C.
   
+  ## Pseudocode - Week 2  
+  
+  ### *Logic problem*
   
   
   
