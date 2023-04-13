@@ -58,9 +58,27 @@
   ## Pseudocode - Week 2  
   
   ### *Logic problem*
+  So we know that The teacher asks his 5 students if they studied mathematics yesterday.  
+
+  Alice: "Nobody studied math yesterday".  
+  Bob: "1 person studied math yesterday".  
+  Charlie: "2 people studied math yesterday".  
+  Dan: "3 people studied mathematics yesterday".  
+  Eva: "4 people studied mathematics yesterday".  
+
+The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?  
+
+  So if Alice study, the sentence is contradicted because she said that Nobody study math including she
+  In another like Charlie, Dan and Eva said that x numbers > 1 people study math, in the case that anyone tell the true, is another contradiction because in the other case said another numbers of people so this is not posible  
+  So the only person that said the true is Bob because he said that only one study and if he study, hes statement is correct.  
   
-  
-  
+  ### *Which comes first, cereal or milk?*  
+    1. Grab a Bowl  
+    2. Take your favorite cereal and milk  
+    2.1 Put first the milk and then the cereal  
+    2.2 Also put the cereal first and then the milk  
+    3. Enjoy your cereal
+   
   
   
   
