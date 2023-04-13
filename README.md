@@ -78,7 +78,7 @@ The teacher knows that only those who studied would be telling the truth and tho
     2.1 Put first the milk and then the cereal  
     2.2 Also put the cereal first and then the milk  
     3. Enjoy your cereal
-   
+   ![Bowl](https://drive.google.com/file/d/1dVRMVW-d2uK2_wf6LLGuF3J31EM6gJqc/view?usp=share_link)
   
   
   
