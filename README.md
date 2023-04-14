@@ -78,7 +78,50 @@ The teacher knows that only those who studied would be telling the truth and tho
     2.1 Put first the milk and then the cereal  
     2.2 Also put the cereal first and then the milk  
     3. Enjoy your cereal
-   ![Bowl](https://drive.google.com/file/d/1dVRMVW-d2uK2_wf6LLGuF3J31EM6gJqc/view?usp=share_link)
-  
-  
+  ![Grab a Bowl](https://user-images.githubusercontent.com/121598239/231919419-55d76dce-9eb9-472f-8ac8-3f9f496f40e8.jpeg)
+
+  ### *Print my name & age*
+  Algoritmo myName  
+	Imprimir 'My name is: Andry González Cantoral'  
+	edad = "My age is: 18"  
+	Escribir edad  
+FinAlgoritmo  
+![image](https://user-images.githubusercontent.com/121598239/231943029-932b3252-2f2c-4a4b-a4b9-a9efe4ae4588.png)
+
+### *Algorithm Game*
+![image](https://user-images.githubusercontent.com/121598239/231944533-acdb1291-6e3a-4322-974f-0f6eae2683a6.png)
+
+### *Mod in PSeInt Challenge*  
+  Algoritmo odd_or_Even 
+  // If the number comes out 0 is even, but if the numer comes out 1 is odd   
+	Leer x  
+	Imprimir x % 2  
+FinAlgoritmo  
+![image](https://user-images.githubusercontent.com/121598239/231947829-f24a5765-9553-49e8-beec-c9521be909cb.png)
+
+### *Register Form*   
+  Algoritmo RegisterForm  
+	Imprimir '====USER FORM===='  
+	Imprimir 'First Name'  
+	Leer firstName  
+	Imprimir 'Last Name'  
+	Leer lastName  
+	Imprimir 'Age'  
+	Leer age  
+	Imprimir 'Email'  
+	Leer email  
+	Imprimir 'Address'  
+	Leer address 
+	
+	Imprimir '====USER DATA===='
+	Imprimir 'FullName: '+ firstName + ' ' + lastName
+	Imprimir 'Age: ' + age
+	Imprimir 'Email: ' + email
+	Imprimir 'Address: ' + address
+	Imprimir '=============='  
+FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/121598239/231949906-5cf0ca84-fad4-4d78-b763-ed0368b87e95.png)
+
+
   
