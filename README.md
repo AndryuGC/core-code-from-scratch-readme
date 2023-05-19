@@ -124,25 +124,25 @@ FinAlgoritmo
 ![image](https://user-images.githubusercontent.com/121598239/231949906-5cf0ca84-fad4-4d78-b763-ed0368b87e95.png)
 
   ## Pseudocode - Week 3 
-  ### Simple Calculator
+  ### *Simple Calculator*
   ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/6e989e7b-805b-4b86-bdc5-adc10e487784)
 
- ### Special Number
+ ### *Special Number*
  ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/dc227f95-3033-450e-b895-fc204b23e443)
 
-### Simple Calculator with Switch
+### *Simple Calculator with Switch*
 ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/15923ab4-4f92-4a41-9369-35db0daf5424)
 
-### Simple Calculator with Do While
+### *Simple Calculator with Do While*
   ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/83341e8e-0248-4b08-b086-078848db3870)
 
-### Multiplication Tables with For
+### *Multiplication Tables with For*
 ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/627dc156-77ad-4c80-907b-c259f8026648)
 
-### Ascending and Descending Numbers
+### *Ascending and Descending Numbers*
 ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/843ff9c9-0c9b-48e7-8f01-4ab98ea55612)
 
-### Greetings
+### *Greetings*
 ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/a021be16-1f59-4a67-955e-66d57d4c3bf5)
 
 
