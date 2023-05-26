@@ -147,4 +147,47 @@ FinAlgoritmo
 
 
  ## Pseudocode - Week 4
+ ### Average sales and commission
  
+Algoritmo Averagesalesandcommission
+	Escribir "Escribe el número total de ventas a entrar:"
+	leer numero_ventas
+	ganancia_total = 0
+	
+	Para sale = 1 Hasta numero_ventas Con Paso 1 Hacer
+		Escribir "Escribir el valor del número de ventas: ", sale
+		leer cantidad
+		ganancia_total = ganancia_total + cantidad
+	FinPara
+	
+	promedio = ganancia_total / numero_ventas
+	Imprimir 'El promedio de ventas es: ', promedio
+	
+	Si numero_ventas < 5 Entonces
+		Imprimir 'La comisión que recibe el vendedor será:', ganancia_total * 0.10
+	SiNo
+		Imprimir 'La comisión que recibe el vendedor será:', ganancia_total * 0.15
+	FinSi
+	FinAlgoritmo
+	![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/2defad8c-bb8a-434b-aac1-1538d71f0f5b)
+
+### Even or Odd
+Algoritmo EvenOrOdd
+	Repetir
+		Escribir "Write a Number between 1 or 50: "
+		Leer num
+		Si num < 1 | num > 50 Entonces
+			Imprimir "Invalid Number"
+		FinSi
+	Mientras Que num < 1 | num > 50
+	par = num % 2 = 0
+	Para count = 1 Hasta num Con Paso 1 Hacer
+		Si count % 2 = 0 & par Entonces
+			Imprimir count
+		FinSi
+		Si count % 2 = 1 & ~(par)
+			Imprimir count
+		FinSi
+	FinPara
+FinAlgoritmo
+![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/7ee1af49-4e2c-4a46-aa8e-f98df4cd3a77)
