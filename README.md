@@ -191,3 +191,15 @@ Algoritmo EvenOrOdd
 	FinPara
 FinAlgoritmo
 ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/7ee1af49-4e2c-4a46-aa8e-f98df4cd3a77)
+
+### Full Name
+Algoritmo FullName
+	Escribir "write a name"  
+	leer first_name  
+	Escribir "write a last-name"  
+	leer last_name  
+	corrected_first_name = Mayusculas(Subcadena(first_name,0,0)) + Minusculas(Subcadena(first_name,1,Longitud(first_name)-1))  
+	corrected_last_name = Mayusculas(Subcadena(last_name,0,0)) + Minusculas(Subcadena(last_name,1,Longitud(last_name)-1))  
+	Imprimir corrected_first_name, " ",corrected_last_name  
+FinAlgoritmo  
+![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/5cff4909-3512-4c29-a6a5-e4fc9b998586)
