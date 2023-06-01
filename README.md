@@ -149,26 +149,23 @@ FinAlgoritmo
  ## Pseudocode - Week 4
  ### Average sales and commission
  
-Algoritmo Averagesalesandcommission
-	Escribir "Escribe el número total de ventas a entrar:"
-	leer numero_ventas
-	ganancia_total = 0
-	
-	Para sale = 1 Hasta numero_ventas Con Paso 1 Hacer
-		Escribir "Escribir el valor del número de ventas: ", sale
-		leer cantidad
-		ganancia_total = ganancia_total + cantidad
-	FinPara
-	
-	promedio = ganancia_total / numero_ventas
-	Imprimir 'El promedio de ventas es: ', promedio
-	
-	Si numero_ventas < 5 Entonces
-		Imprimir 'La comisión que recibe el vendedor será:', ganancia_total * 0.10
-	SiNo
-		Imprimir 'La comisión que recibe el vendedor será:', ganancia_total * 0.15
-	FinSi
-	FinAlgoritmo
+Algoritmo Averagesalesandcommission  
+	Escribir "Escribe el número total de ventas a entrar:"  
+	leer numero_ventas  
+	ganancia_total = 0  
+	Para sale = 1 Hasta numero_ventas Con Paso 1 Hacer  
+		Escribir "Escribir el valor del número de ventas: ", sale  
+		leer cantidad  
+		ganancia_total = ganancia_total + cantidad  
+	FinPara  
+	promedio = ganancia_total / numero_ventas  
+	Imprimir 'El promedio de ventas es: ', promedio  
+	Si numero_ventas < 5 Entonces  
+		Imprimir 'La comisión que recibe el vendedor será:', ganancia_total * 0.10  
+	SiNo  
+		Imprimir 'La comisión que recibe el vendedor será:', ganancia_total * 0.15  
+	FinSi  
+	FinAlgoritmo  
 	![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/2defad8c-bb8a-434b-aac1-1538d71f0f5b)
 
 ### Even or Odd
@@ -203,3 +200,96 @@ Algoritmo FullName
 	Imprimir corrected_first_name, " ",corrected_last_name  
 FinAlgoritmo  
 ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/5cff4909-3512-4c29-a6a5-e4fc9b998586)
+
+### Throw dice 
+Algoritmo ThrowDice  
+	Definir dice1, dice2 Como Entero  
+	Para count = 1 Hasta 10 con Paso 1 Hacer  
+		dice1 = Aleatorio(1,6)  
+		dice2 = Aleatorio(1,6)  
+		Si dice1 = dice2 Entonces  
+			Imprimir dice1, " ", dice2, " the dice is the same"  
+		SiNo  
+			Imprimir dice1, " ", dice2  
+		FinSi  
+	FinPara  
+FinAlgoritmo  
+![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/3b176b5e-9e82-40e2-b313-29ae403d77fd)
+
+### Distance to Zero  
+Algoritmo DistanceToZero  
+	Escribir "Write a number"  
+	leer MaxDistance  
+	Para count=1 Hasta 4 con Paso 1 Hacer  
+		Escribir "Write a number"  
+		leer num  
+		Si Abs(num) > abs(MaxDistance) Entonces  
+			MaxDistance = num  
+		FinSi  
+	FinPara  
+	Imprimir Trunc(MaxDistance)  
+FinAlgoritmo  
+![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/aa1df429-79b3-4b4e-b0ed-55c55efd5a94)
+
+### Toss Coin  
+Algoritmo TossCoin  
+	Escribir "Enter the name of the first player"  
+	leer player1  
+	Escribir "Enter the amount to play"  
+	leer amount1  
+	Escribir "Enter the name of the second player"  
+	leer player2  
+	Escribir "Enter the amount to play"  
+	leer amount2  
+	SI amount1<=0 | amount2 <=0 Entonces  
+		SI amount1<=0 & amount2 <=0 Entonces  
+			Imprimir "game canceled"  
+		SiNo  
+			SI amount1<=0 Entonces  
+				Imprimir "player wins: ", Mayusculas(player2), " amount won: 0"  
+			SiNo  
+				Imprimir "player wins: ", Mayusculas(player1), " amount won: 0"  
+			FinSi  
+		FinSi  
+	SiNo  
+		SI Aleatorio(1,2) = 1 Entonces  
+			Imprimir "player wins: ", Mayusculas(player1), " amount won: ", amount2  
+		SiNo  
+			Imprimir "player wins: ", Mayusculas(player2), " amount won: ", amount1  
+		FinSi  
+	FinSi  
+FinAlgoritmo  
+![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/6a15296b-ec08-46a3-b09a-e9d6262eec3f)
+
+### Total Price
+Funcion value <- TotalPrice (price, iva)  
+		Definir value Como Real;  
+		SI price > 3000 Entonces  
+			value = ( price + (price/100*iva) ) / 100*90  
+		SiNo  
+			value = ( price + (price/100*iva) )  
+		FinSi  
+	Fin Funcion  
+	Algoritmo example_TotalPrice  
+		Imprimir TotalPrice(5000,21)  
+FinAlgoritmo  
+![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/105ab61c-63b4-4d94-a2d0-f5f924d48340)
+
+### Reverse direction and size
+Funcion result <- ReverseDirectionAndSize (string)  
+	Definir result Como Caracter;  
+	result = "";  
+	Para count = Longitud(string) Hasta 0 Con Paso -1 Hacer  
+		letter = Subcadena(string,count,count);  
+		SI letter = Mayusculas(letter) Entonces  
+			letter = Minusculas(letter)  
+		SiNo  
+			letter = Mayusculas(letter)  
+		FinSi  
+		result = Concatenar(result, letter)  
+	FinPara  
+Fin Funcion  
+Algoritmo example_ReverseDirectionAndSize  
+	Imprimir ReverseDirectionAndSize("Hello")  
+FinAlgoritmo  
+![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/1164ee9c-033d-41d7-b30f-a1578d5eade5)
