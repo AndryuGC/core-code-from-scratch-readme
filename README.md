@@ -293,3 +293,5 @@ Algoritmo example_ReverseDirectionAndSize
 	Imprimir ReverseDirectionAndSize("Hello")  
 FinAlgoritmo  
 ![image](https://github.com/AndryuGC/core-code-from-scratch-readme/assets/121598239/1164ee9c-033d-41d7-b30f-a1578d5eade5)
+
+## Pseudocode & Javascript - Week 5
